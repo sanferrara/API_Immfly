@@ -32,7 +32,7 @@ Hacemos una importacion de la base de datos con canales y contenidos ajustados a
 	
 	docker exec -i project_immfly_db_1 psql -U immfly immfly < pg_immfly.sql
 
-Ya estariamos en condiciones de ejecutar el servidor web
+Ya estariamos en condiciones de ejecutar el servidor web , tener en cuenta la ip que puede ser la del servidor virtual en caso de utiliza uno.
 
 #Lista de todos los canales que no tienen hijos	
 
